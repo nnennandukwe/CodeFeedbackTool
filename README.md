@@ -2,6 +2,8 @@
 
 A web application that provides (almost) AI-powered feedback on content submissions. Built with Laravel, React, and TypeScript, this tool demonstrates Sentry integration for error monitoring, tracing, and session replays.
 
+![Screenshot of Content Feedback Tool](/assets/contentFeedbackToolImage.png)
+
 ## Features
 
 - Content analysis for different types of content (blog posts, emails, product descriptions, social media)
