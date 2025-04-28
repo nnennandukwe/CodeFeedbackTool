@@ -14,8 +14,8 @@ Sentry.init({
   sendDefaultPii: true,
   integrations: [
     Sentry.browserTracingIntegration({
-      instrumentNavigation: true,
-      instrumentPageLoad: true,
+      instrumentNavigation: true, // TODO: Understand if this is needed. Inertia, React, and Sentry are all instrumenting the same things?
+      instrumentPageLoad: true, // TODO: Understand if this is needed
     }),
     Sentry.replayIntegration({
         maskAllText: false,
